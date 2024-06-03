@@ -5,7 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     color: gray;
 }
 /* body{
@@ -145,7 +145,7 @@ td img{
 }
 .section-five ul li img{
     width: 300px;
-    height: 400px;
+    /* height: 300px; */
     display: flex;
 }
 
@@ -215,6 +215,9 @@ footer{
     margin: 20px
 }
 @media screen and(max-width : 320px) {
-    
+   .section-five{
+     padding: 10px;
+     margin-right: 0;
+   } 
 }
 
